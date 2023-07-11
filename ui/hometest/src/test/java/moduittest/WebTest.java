@@ -12,7 +12,7 @@ import page_objects.LoginPO;
 
 public class WebTest {
     @Test
-    public void testMethod() throws InterruptedException {
+    public void testLogin() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com");
 
